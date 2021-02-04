@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview_mo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E3B733"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+
+            android:id="@+id/mobi_img"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:padding="30dp"
+            android:paddingTop="6dp"
+            android:src="@drawable/beeline_fragmernt"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:background="@drawable/cardview"
+            android:elevation="6dp"
+            android:gravity="center_horizontal">
+
+            <GridLayout
+                android:layout_marginBottom="45dp"
+
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:columnCount="2"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="18dp"
+                android:rowCount="3"
+                android:theme="@style/MyText">
+
+
+                <com.google.android.material.card.MaterialCardView
+
+                    android:id="@+id/internet_mo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?selectableItemBackground"
+                    android:outlineSpotShadowColor="#E3B733"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="10dp"
+                    app:strokeColor="#E3B733"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="6dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="5"
+                            android:padding="10dp"
+                            android:src="@drawable/logo_internet"
+                            android:tint="#E3B733"
+                            tools:ignore="UseAppTint" />
+
+
+                        <TextView
+
+                            android:layout_width="120dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="5"
+                            android:gravity="center"
+                            android:text="@string/internet_packages" />
+
+                    </LinearLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/balance_mo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?selectableItemBackground"
+                    android:outlineSpotShadowColor="#E3B733"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="10dp"
+                    app:strokeColor="#E3B733"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="6dp">
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_weight="5"
+                            android:padding="10dp"
+                            android:src="@drawable/flaticon_balance"
+                            android:tint="#E3B733"
+                            tools:ignore="UseAppTint" />
+
+
+                        <TextView
+                            android:id="@+id/balance"
+                            android:layout_width="120dp"
+                            android:layout_height="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/balance" />
+
+                    </LinearLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/tariff_mo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_rowWeight="2"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?selectableItemBackground"
+                    android:outlineSpotShadowColor="#E3B733"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="10dp"
+                    app:strokeColor="#E3B733"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="6dp">
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:layout_weight="5"
+                            android:padding="10dp"
+                            android:src="@drawable/flaticon_tariflar"
+                            android:tint="#E3B733"
+                            tools:ignore="UseAppTint" />
+
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="0dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:text="@string/tariffs" />
+
+                    </LinearLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/minute_mo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_rowWeight="1"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?selectableItemBackground"
+                    android:outlineSpotShadowColor="#E3B733"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="10dp"
+                    app:strokeColor="#E3B733"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="6dp">
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:layout_weight="5"
+                            android:padding="10dp"
+                            android:src="@drawable/flaticon_daqiqa"
+                            android:tint="#E3B733"
+                            tools:ignore="UseAppTint" />
+
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="0dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:text="@string/minute_and_sms" />
+
+                    </LinearLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/useful_mo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_rowWeight="2"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?selectableItemBackground"
+                    android:outlineSpotShadowColor="#E3B733"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="10dp"
+                    app:strokeColor="#E3B733"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="6dp">
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_weight="5"
+                            android:padding="10dp"
+                            android:src="@drawable/flaticon_foydali"
+                            android:tint="#E3B733"
+                            tools:ignore="UseAppTint" />
+
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="0dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:text="@string/useful" />
+
+                    </LinearLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/service_mo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_rowWeight="1"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?selectableItemBackground"
+                    android:outlineSpotShadowColor="#E3B733"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="10dp"
+                    app:strokeColor="#E3B733"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="6dp">
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:layout_weight="5"
+                            android:padding="10dp"
+                            android:src="@drawable/flaticon_xizmatlar"
+                            android:tint="#E3B733"
+                            tools:ignore="UseAppTint" />
+
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="0dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:text="@string/services" />
+
+                    </LinearLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </GridLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

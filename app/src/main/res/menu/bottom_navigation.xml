@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/ucell"
+        android:icon="@drawable/ucell_logo"
+        android:title="ucell"/>
+    <item
+        android:id="@+id/uzmobile"
+        android:icon="@drawable/cupcake"
+        android:title="uzmobile"/>
+    <item android:id="@+id/mobiuz"
+        android:icon="@drawable/flag_russia"
+        android:title="mobiuz"/>
+    <item android:id="@+id/beeline"
+        android:icon="@drawable/beeline_logo"
+        android:title="beeline"/>
+</menu>

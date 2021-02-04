@@ -1,0 +1,563 @@
+<resources>
+    <string name="app_name">USSD Support</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!--Uzmobile Services-->
+
+    <string name="active">Faollashtirish</string>
+
+    <string name="uz_qabul_title">"Qabul qilingan qo\'ng\'iroq" va "Tarmoqda"</string>
+    <string name="uz_qabul_text">Endi Uzmobile GSM abonentlari "Qabul qilingan qo\'ng\'iroq" xizmati orqali telefoni o\'chiq bo\'lganda yoki tarmoqdan tashqari bo\'lgan hollarda qabul qilinmagan qo\'ng\'iroqlar haqida ma\'lumotlarga
+        ega bo\'lishlari mumkin\nXizmat abonent to\'lovi 40 so\'m kuniga\n\nFaollashtirish - *111*2*4*1#\nXizmatni o\'chirish - *111*2*4*2#</string>
+
+    <string name="uz_tungi_title">Tungi qo\'ng\'iroqlar</string>
+    <string name="uz_tungi_text">Xizmatni faollashtirgandan keyin, tarmoq ichida qo\'ng\'iroqlar, shuningdek, "O\'zbektelekom" va uning filiallari liniyalarida qayd etilgan raqamlarga chiquvchi qo\'ng\'iroqlar (xizmat amal qilish davrida) narxlanmaydi.
+        Xizmatni amal qilish davri: har kuni soat 22:00 dan 07:00 gacha.\nFaollashtirish narxi (bir martalik to\'lov) 420 so\'m.\nAbonent to\'lovi kuniga 42 so\'m\n\nO\'chirish - *111*1*16*2#\nHolatni bilish - *111*1*16*3#</string>
+
+    <string name="uz_oila_title">"Oila uchun" xizmati</string>
+    <string name="uz_oila_text">"Oila uchun" xizmati guruhi ichida cheklanmagan ovozli trafik\nNarxi 210 so\'m\nAmal qilish muddati kalendar o\'yin\nFaollashtirish - *111*1*17*1*1#\nXizmatni o\'chirish - *111*1*17*1*2#</string>
+
+    <string name="uz_limitsiz_title">"Limitsiz ovoz" xizmati</string>
+    <string name="uz_limitsiz_text">"Limitsiz ovoz" xizmati abonentlarga GSM va CDMA tarmoqlari ichida bepul qo\'ng\'iroqlarni amalga oshirish imkonini beradi.\nNarxi 210 so\'m kuniga\n\nFaollashtirish - *111*2*15*1#\nXizmatlarni o\'chirish - *111*2*15*2#</string>
+
+    <string name="uz_chaqiriq_title">Chaqiriqni kutish va ushlab turish</string>
+    <string name="uz_chaqiriq_text">Suhbatlar mobaynida javob berish jarayonida boshqa abonent kirish qo\'ng\'iroqlari (yoki qo\'ng\'iroq qilgan boshqa abonent) chaqiriqni kutish rejimi imkonini beradi
+        va kirish chaqiriqlarini mazkur joriy suhbat tugaguniga qadar ushlab turadi, ya\'ni navbatma-navbat 2 abonent bilan suhbatlashadi.\nXizmatni o\'chirish kodi - #43#</string>
+
+    <string name="uz_jarima_yxq_title">YHQ jarimalari haqida xabar</string>
+    <string name="uz_jarima_yxq_text">Xizmatni boshqarish:\nO\'z YHQ buzilishlari haqida xabar olish uchun quyidagi axborot bilan bepul SMS jo\'natish zarur:
+8860 raqamiga «avtomobilning davlat raqami oрaliq bo\'sh joy qoldirish tex. pasport seriyasi va raqami» (Masalan: 01R999XY AAC5447770)..\nYHQ buzilishi haqidagi 1 SMS narxi - 210,52 so\'m\nYHQ buzilishi mavjud emasligi haqidagi 1 SMS narxi 84,21 so\'m</string>
+
+    <string name="uz_yashirin_title">"Yashirin qo'ng'iroq"</string>
+    <string name="uz_yashirin_text">Mazkur xizmat abonentlarga o\'z telefon raqamlarini  yashirishga ruhsat beradi. Qo\'ng\'iroq qabul qilayotgan abonentning telefon raqamini ko\'ra olmaydi.\n\nXizmat Prepaid tizimidagi abonentlariga
+        abonent to\'lovisiz amal qiladi, hamda xizmat maxsus ulanishni talab qilmaydi.\n\nShartlar:\n\n1.Mazkur xizmatlardan foydalanish uchun qo\'ng\'iroq amalga oshirilganda, terilayotgan raqamdan avval "#" belgisini qo\\yish va
+        raqamni xalqaro formatda kiritish kerak: #99899XXXXXXX. Qo\'ng\'iroqlarni yashirin holda amalga oshiriladi.\n2."Yashirin qo\'ng\'iroq" xizmati orqali qo\'ng\'iroqni amalga oshirish narxi -210,52 so\'m.\n3."Yashirin qo\'ng\'iroq" xizmatidan foydalanilganda,
+    "Shaxsiy raqam uzatilishini taqiqlash" xizmati yoqilgan bo\'lsa ham, xizmat uchun abonent hisobidan 210,52 so\'m yechiladi..</string>
+
+    <string name="uz_restart_title">"Restart" xizmati</string>
+    <string name="uz_restart_text">"Restart" xizmatining muvaffaqiyatli faollashtirilganda Street, Flash va Royal ta\'riflar tizimlaridagi abonentlar oylik davrning istalgan kunida bir oylik limitlarni olishadi,
+        bunda oylik abonent to\'lovining yechilish muddati yangilanadi.\n\nXizmatni yoqish - *555#</string>
+
+    <string name="uz_transfermoney_title">Tezkor o‘tkazmalar</string>
+    <string name="uz_transfermoney_text">“Tezkor o‘tkazmalar” xizmati UZTELECOM abonentlari o‘rtasida pul o‘tkazmalarini amalga oshirishga yordam beradi. Pul o‘tkazish SMS va USSD orqali amalga oshiriladi. \nMuvafaqqiyatli pul o‘tkazmasi uchun xizmat narxi - 160 so\'m</string>
+
+
+    <!--MobiUz Services-->
+    <string name="mo_antiaon_title">AntiAON</string>
+    <string name="mo_antiaon_text">Raqamni aniqlashga qarshilik xizmati imkonini beradi, abonentga istalgan Mobiuz abonenti telefon raqamiga chiquvchi qongiroqlarda oz tеlеfon raqamini aniqlashni taqiqlash yoki ruxsat berish imkonini beradi.
+        \nAbonent tolovi- 421,03 som kuniga\n\n Xizmatni yoqish - *111*0101#\nXizmatni ochirish - *111*0100#</string>
+
+    <string name="mo_callme_title">"Menga qo'ng'iroq qil"</string>
+    <string name="mo_callme_text">"Ushbu xizmat UZB va MTS-Rossiya abonentlariga ular qo’ng’iroq qilishlarini iltimos qilib, tez va oson so’rov yuborish imkonini beradi.\n
+    So’rov yuborish uchun, quyidagi buyruqlarni terish kerak:\n*110*abonentning xalqaro formatdagi raqami# (UZB abonentlariga)\n*110*7ХХХХХХХХХХ# (MTS-Rossiya abonentlariga)\n1 so’rovning narxi:\n42,10 so'm (UZBga), 210,52 so'm (MTS-Rossiyaga) ."</string>
+
+    <string name="mo_missedcall_title">Sizga qo‘ng‘iroq qilishdi</string>
+    <string name="mo_missedcall_text">"«Sizga qo‘ng‘iroq qilishdi!» —Mobiuz abonentiga telefoniga ulanish mumkin yoki hattoki o‘chrilgan vaqtda birorta ham chaqiriqni yo‘qotmaslik imkonini beruvchi qo‘shimcha aloqa xizmatidir. O‘tkazib yuborilgan chaqiriqlar
+        haqida axborotni abonent 808 raqamidan SMS-xabarlar shaklida oladi.\nAbonent to‘lovi- 421,03 so'm kuniga\n\nXizmatni yoqish - *111*0131#"</string>
+
+    <string name="mo_internet_yordamchi_title">"Internet - yordamchi"</string>
+    <string name="mo_internet_yordamchi_text">"«Intеrnеt-yordamchi» — bu Sizning Intеrnеt yordamida shaxsiy ma’lumotlarni olish doimiy imkonini beruvchi shaxsiy kabinеtingizdir.
+        «Intеrnеt-yordamchi» quyidagilarning imkonini beradi.\n
+«Intеrnеt-yordamchi»ni https://ip.mobi.uz manzilidan olish mumkin."</string>
+
+    <string name="mo_doimiyip_title">"Doimiy IP"</string>
+    <string name="mo_doimiyip_text">"«Doimiy IP» xizmati yordamida korporativ mijozlar ichki korporativ servislardan, «UMS» MChJ tarmog’i ishlash doirasida doimiy IP-manzil orqali autentifikatsiya mexanizmlaridan foydalanuvchi dasturlardan masofadan turib foydalinish
+        imkoniyatiga ega bo’ladi, mijozning tarmoqlari administratorlari esa lokal tarmoqlarda IP-manzil bo’yicha qo’shimcha avtorizatsiyani sozlashi mumkin bo’ladi.\nXizmatni ulash – 2105,18 so'm\nOylik abonent to’lovi – 6315,53 so'm
+        \nXizmatni yoqish uchun yurudik shaxs vakili nomidan Mobiuz ofisiga yozma ariza berilishi lozim."</string>
+
+    <string name="mo_chiquvchitaq_title">Chiquvchi qo‘ng‘iroqlarni taqiqlash</string>
+    <string name="mo_chiquvchitaq_text">"Chiquvchi qo‘ng‘iroqlarni taqiqlash xizmati abonentga barcha chiquvchi qo‘ng‘iroqlarni taqiqlash imkonini beradi.\n\nXizmatni yoqish - *33*0000#\nXizmatni o‘chirish - #33*0000#"</string>
+
+    <string name="mo_save_number_title">Raqamni saqlab turish</string>
+    <string name="mo_save_number_text">«Raqamni saqlab turish» xizmati Mobiuz xizmatlaridan foydalanishni cheklash imkonini beradi. Bu muddat davomida tarif rejasi doirasida obuna to‘lovi, shuningdek boshqa davriy xizmatlar uchun haq undirilmaydi. Raqam bog‘lab qo‘yiladigan eng katta muddat 90 kunni tashkil qiladi.
+    Xizmatni ulash — 0,00 so‘m\nObuna to‘lovi — kuniga 210,52  so‘m\n\nUSSD-buyruq — *111*0161#</string>
+
+    <string name="mo_onceAntiaon_title">Bir martalik AntiAON</string>
+    <string name="mo_onceAntiaon_text">«Bir martalik AntiAON» xizmati sizga chaqirilayotgan abonentga o‘z raqamingizni ko‘rsatmaslik imkonini beradi. Ushbu servis bir marta taqdim etiladi va buning uchun uni maxsus ulash shart emas. «Bir martalik AntiAON» xizmatidan foydalanish uchun chaqirilayotgan abonent raqamini terayotganingizda raqam oldiga «#» belgisini qo‘yishingiz kifoya.
+\nMasalan: #99897*******\nRaqamni yashirgan holda bir marta qo‘ng‘iroq qilish narxi 210,52 so‘m</string>
+
+    <string name="mo_changenum_title">Raqamni almashtirish</string>
+    <string name="mo_changenum_text">"Raqamni almashtirish" xizmati abonentga abonentlik raqamini, SIM-kartani almashtirmasdan, eski raqamda oldinroq ulangan xizmatlar va amaldagi tarif rejasini saqlab qolgan holda almashtirish imkoniyatini taqdim qiladi. Xizmatdan yozma ariza asosida va faqat Mobiuz shaxsiy ofislarida, shaxsni tasdiqlovchi hujjatni taqdim qilgan holda foydalanish mumkin.\nXizmat narxi – 21 000 so\'m.</string>
+
+    <!-- UzMobile Tariffs -->
+    <string name="talim_title">Ta\'lim</string>
+    <string name="talim_price">34 900 so\'m</string>
+    <string name="talim_minute">300 DAQIQA</string>
+    <string name="talim_internet">8 000 MB</string>
+    <string name="talim_sms">500 SMS</string>
+
+    <string name="street_title">Street</string>
+    <string name="street_price">39 900 so\'m</string>
+    <string name="street_minute">750 DAQIQA</string>
+    <string name="street_internet">6 500 MB</string>
+    <string name="street_sms">750 SMS</string>
+
+    <string name="streetup_title">Street Upgrade</string>
+    <string name="streetup_price">119 700 so\'m</string>
+    <string name="streetup_minute">3 000 DAQIQA</string>
+    <string name="streetup_internet">26 000 MB</string>
+    <string name="streetup_sms">3 000 SMS</string>
+
+    <string name="flash_title">Flash</string>
+    <string name="flash_price">69 900 so\'m</string>
+    <string name="flash_minute">1 500 DAQIQA</string>
+    <string name="flash_internet">16 000 MB</string>
+    <string name="flash_sms">1 500 SMS</string>
+
+    <string name="flashup_title">Flash Upgrade</string>
+    <string name="flashup_price">209 700 so\'m</string>
+    <string name="flashup_minute">6 000 DAQIQA</string>
+    <string name="flashup_internet">64 000 MB</string>
+    <string name="flashup_sms">6 000 SMS</string>
+
+    <string name="onlime_title">Onlime</string>
+    <string name="onlime_price">49 900 so\'m</string>
+    <string name="onlime_minute">1 000 DAQIQA</string>
+    <string name="onlime_internet">10 000 MB</string>
+    <string name="onlime_sms">1 000 SMS</string>
+
+    <string name="royal_title">Royal</string>
+    <string name="royal_price">149 900 so\'m</string>
+    <string name="royal_minute">CHEKSIZ DAQIQA</string>
+    <string name="royal_internet">CHEKSIZ MB</string>
+    <string name="royal_sms">5 000 SMS</string>
+
+    <string name="maktab_title">Maktab</string>
+    <string name="maktab_price">29 900 so\'m</string>
+    <string name="maktab_minute">200 DAQIQA</string>
+    <string name="maktab_internet">5 000 MB</string>
+    <string name="maktab_sms">500 SMS</string>
+
+    <string name="ishbilarmon_title">Ishbilarmon</string>
+    <string name="ishbilarmon_price">99 000 so\'m</string>
+    <string name="ishbilarmon_minute">CHEKSIZ DAQIQA</string>
+    <string name="ishbilarmon_internet">25 000 MB</string>
+    <string name="ishbilarmon_sms">3 000 SMS</string>
+
+    <string name="oddiy_title">Oddiy</string>
+    <string name="oddiy_price">10 000 so\'m</string>
+    <string name="oddiy_minute">10 DAQIQA</string>
+    <string name="oddiy_internet">10 MB</string>
+    <string name="oddiy_sms">10 SMS</string>
+
+    <string name="bolajon_title">Bolajon</string>
+    <string name="bolajon_price">18 000 so\'m</string>
+    <string name="bolajon_minute">200 DAQIQA</string>
+    <string name="bolajon_internet">0 MB</string>
+    <string name="bolajon_sms">200 SMS</string>
+
+    <string name="uzcard_title">Uzcard GSM</string>
+    <string name="uzcard_price">6 310 so\'m</string>
+    <string name="uzcard_minute">CHEKSIZ DAQIQA</string>
+    <string name="uzcard_internet">250 MB</string>
+    <string name="uzcard_sms">0 SMS</string>
+
+    <string name="humo_title">Humo GSM</string>
+    <string name="humo_price">6 310 so\'m</string>
+    <string name="humo_minute">CHEKSIZ DAQIQA</string>
+    <string name="humo_internet">250 MB</string>
+    <string name="humo_sms">0 SMS</string>
+
+
+    <!--mobiuz tariffs-->
+    <string name="yorqin_title">Yorqin</string>
+    <string name="yorqin_price">60 000 so\'m</string>
+    <string name="yorqin_minute">1 000 DAQIQA</string>
+    <string name="yorqin_internet">10 000 MB</string>
+    <string name="yorqin_sms">1 000 SMS</string>
+
+    <string name="chilla_title">Chilla Lite</string>
+    <string name="chilla_price">20 000 so\'m</string>
+    <string name="chilla_minute">3 000 DAQIQA</string>
+    <string name="chilla_internet">200 MB</string>
+    <string name="chilla_sms">100 SMS</string>
+
+    <string name="terminal_title">Terminal</string>
+    <string name="terminal_price">12 000 so\'m</string>
+    <string name="terminal_minute">0 DAQIQA</string>
+    <string name="terminal_internet">300 MB</string>
+    <string name="terminal_sms">0 SMS</string>
+
+    <string name="mobi20_title">Mobi 20</string>
+    <string name="mobi20_price">20 000 so\'m</string>
+    <string name="mobi20_minute">500 DAQIQA</string>
+    <string name="mobi20_internet">2 000 MB</string>
+    <string name="mobi20_sms">500 SMS</string>
+
+    <string name="mobi30_title">Mobi 30</string>
+    <string name="mobi30_price">30 000 so\'m</string>
+    <string name="mobi30_minute">1 000 DAQIQA</string>
+    <string name="mobi30_internet">5 000 MB</string>
+    <string name="mobi30_sms">1 000 SMS</string>
+
+    <string name="mobi40_title">Mobi 40</string>
+    <string name="mobi40_price">40 000 so\'m</string>
+    <string name="mobi40_minute">1 200 DAQIQA</string>
+    <string name="mobi40_internet">8 000 MB</string>
+    <string name="mobi40_sms">1 200 SMS</string>
+
+    <string name="mobi50_title">Mobi 50</string>
+    <string name="mobi50_price">50 000 so\'m</string>
+    <string name="mobi50_minute">1 500 DAQIQA</string>
+    <string name="mobi50_internet">10 000 MB</string>
+    <string name="mobi50_sms">1 500 SMS</string>
+
+    <string name="mobi70_title">Mobi 70</string>
+    <string name="mobi70_price">70 000 so\'m</string>
+    <string name="mobi70_minute">2 500 DAQIQA</string>
+    <string name="mobi70_internet">20 000 MB</string>
+    <string name="mobi70_sms">2 500 SMS</string>
+
+    <string name="mobi90_title">Mobi 90</string>
+    <string name="mobi90_price">90 000 so\'m</string>
+    <string name="mobi90_minute">3 500 DAQIQA</string>
+    <string name="mobi90_internet">65 000 MB</string>
+    <string name="mobi90_sms">3 500 SMS</string>
+
+    <string name="mobi110_title">Mobi 110</string>
+    <string name="mobi110_price">110 000 so\'m</string>
+    <string name="mobi110_minute">CHEKSIZ DAQIQA</string>
+    <string name="mobi110_internet">80 000 MB</string>
+    <string name="mobi110_sms">5 000 SMS</string>
+
+    <string name="mobi150_title">Mobi 150</string>
+    <string name="mobi150_price">150 000 so\'m</string>
+    <string name="mobi150_minute">CHEKSIZ DAQIQA</string>
+    <string name="mobi150_internet">100 000 MB</string>
+    <string name="mobi150_sms">10 000 SMS</string>
+
+
+    <string name="tariff_payment">Oylik to\'lov</string>
+    <string name="sms">Sms</string>
+    <string name="tariff_minutes">Chiquvchi daqiqalar</string>
+    <string name="tarrif_package">Trafik hajmi</string>
+    <string name="tariff_start">Tarifga ulanish</string>
+    <string name="tariff_3_payment">3 Oylik to\'lov</string>
+
+
+    //USEFULL CODE UZMOBILE
+    <string name="usuz_control">balansni boshqarish</string>
+    <string name="usuz_operator">uzmobile operatori</string>
+    <string name="usuz_4glte_on">4g lte ni yoqish</string>
+    <string name="usuz_4glte_off">4g lte ni o\'chirish</string>
+    <string name="usuz_wait">kutib turishni faollashtirish</string>
+    <string name="usuz_peread">pereadresatsiyani tekshirish</string>
+    <string name="usuz_phoneimei_check">telefonning imei-kodini aniqlash</string>
+
+
+    //USEFULL CODE MOBIUZ
+    <string name="usmo_internet_check">Internet qoldig\'ini tekshirish</string>
+    <string name="usmo_minute_check">Daqiqa qoldig\'ini tekshirish</string>
+    <string name="usmo_sms_check">Sms qoldig\'ini tekshirish</string>
+    <string name="usmo_bonusnet_check">Bonusli internet-to\'plamlarini tekshirish</string>
+    <string name="usmo_myservice">Mening xizmatlarim</string>
+    <string name="usmo_4glite_on">4G Lteni yoqish</string>
+    <string name="usmo_4glite_off">4G lteni o\'chirish</string>
+    <string name="usmo_credit">qarz olish</string>
+    <string name="usmo_advertisement">Reklamani taqiqlash</string>
+    <string name="usmo_mobilenet_on">Mobil internetni yoqish</string>
+    <string name="usmo_lastpayment">Oxirgi to\'lov</string>
+    <string name="usmo_myexes">Mening harajatlarim</string>
+    <string name="usmo_dontmoney">pul o\'tkazishni taqiqlash</string>
+    <string name="usmo_wait_on">kutib turishni faollashtirish</string>
+    <string name="usmo_pereadres_check">Pereadresatsiyani tekshirish</string>
+    <string name="usmo_phoneime">Telfonning imei-kodini aniqlash</string>
+
+
+    //ZARURIY XIZMATLAR
+    <string name="us_needful_numbers">Zaruriy xizmatlar</string>
+    <string name="us_fireman">o\'t o\'chirish xizmati</string>
+    <string name="us_police">militsiya</string>
+    <string name="us_ambulance">tez yordam</string>
+    <string name="us_gas">gaz avariyasi xizmati</string>
+    <string name="us_help">qutqaruv xizmati</string>
+
+    //QISQA RAQAMLAR
+    <string name="balans">Balans</string>
+    <string name="internet_packages">Internet to\'plamlari</string>
+    <string name="tariffs">Tariflar</string>
+    <string name="minute_and_sms">Daqiqa va SMS</string>
+    <string name="useful">Foydali</string>
+    <string name="services">Xizmatlar</string>
+
+
+    //WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+
+    <string name="batafsil_malumot">Batafsil</string>
+    <string name="dialog_text">Quyidagi xizmatni yoqishga rozimisiz?</string>
+    <string name="dialog_title">Siz rozimisiz?</string>
+    <string name="dialog_apply_button">Ha</string>
+    <string name="dialog_cancel_button">Orqaga</string>
+
+
+    <string name="internet_packets">Internet to\'plamlar</string>
+    <string name="balance">Balans</string>
+    <string name="uz_balance_check">Balans</string>
+    <string name="uz_RemainTrafBtn">Trafik qoldig\'i</string>
+    <string name="uz_CheckAct">Faol xizmatlarni tekshirish</string>
+    <string name="uz_numbers">Mening raqamim</string>
+    <string name="uz_all_numbers">Mening barcha raqamlarim</string>
+
+
+    <!--Useful Uzmobile-->
+
+
+    <!--Minutes and SMS Uzmobile-->
+
+    <!--Minute-->
+
+    <!--SMS-->
+
+
+    <!--Internet packet-->
+    <string name="uz_month_internet">Oylik</string>
+    <string name="uz_day_internet">Kunlik</string>
+    <string name="uz_night_internet">Tungi</string>
+    <string name="uz_month_nonstop_internet">Oylik non-stop</string>
+    <string name="uz_tasix_internet">90 kunlik TAS-IX</string>
+    <string name="uz_constructor_internet">"Constructor" mijozlariga</string>
+    <string name="uz_cdma_internet">cmda internet</string>
+
+    <!--Internet month-->
+    <string name="uz_month_500">500 MB</string>
+    <string name="uz_month_500_price">10 000 so\'m</string>
+    <string name="uz_month_1500">1 500 MB</string>
+    <string name="uz_month_1500_price">15 000 so\'m</string>
+    <string name="uz_month_3000">3 000 MB</string>
+    <string name="uz_month_3000_price">24 000 so\'m</string>
+    <string name="uz_month_5000">5 000 MB</string>
+    <string name="uz_month_5000_price">32 000 so\'m</string>
+    <string name="uz_month_8000">8 000 MB</string>
+    <string name="uz_month_8000_price">41 000 so\'m</string>
+    <string name="uz_month_12000">12 000 MB</string>
+    <string name="uz_month_12000_price">50 000 so\'m</string>
+    <string name="uz_month_20000">20 000 MB</string>
+    <string name="uz_month_20000_price">65 000 so\'m</string>
+    <string name="uz_month_30000">30 000 MB</string>
+    <string name="uz_month_30000_price">75 000 so\'m</string>
+    <string name="uz_month_50000">50 000 MB</string>
+    <string name="uz_month_50000_price">85 000 so\'m</string>
+    <string name="uz_month_75000">75 000 MB</string>
+    <string name="uz_month_75000_price">110 000 so\'m</string>
+
+
+    <!--Internet day-->
+    <string name="uz_day_100">100 MB</string>
+    <string name="uz_day_100_price">3 000 so\'m</string>
+    <string name="uz_day_300">300 MB</string>
+    <string name="uz_day_300_price">6 000 so\'m</string>
+    <string name="uz_day_600">600 MB</string>
+    <string name="uz_day_600_price">9 000 so\'m</string>
+
+    <!--Internet night-->
+    <string name="uz_night_1">Tun VIP</string>
+    <string name="uz_night__1_price">6 300 so\'m</string>
+    <string name="uz_night_7">7 tun VIP</string>
+    <string name="uz_night_7_price">31 500 so\'m</string>
+    <string name="uz_night_30">30 tun VIP</string>
+    <string name="uz_night_30_price">99 000 so\'m</string>
+
+    <!--Internet month_nonstop-->
+    <string name="uz_month_nonstop_3000">3 000 MB</string>
+    <string name="uz_month_nonstop_3000_price">24 000 so\'m</string>
+    <string name="uz_month_nonstop_5000">5 000 MB</string>
+    <string name="uz_month_nonstop_5000_price">32 000 so\'m</string>
+    <string name="uz_month_nonstop_8000">8 000 MB</string>
+    <string name="uz_month_nonstop_8000_price">41 000 so\'m</string>
+    <string name="uz_month_nonstop_12000">12 000 MB</string>
+    <string name="uz_month_nonstop_12000_price">50 000 so\'m</string>
+    <string name="uz_month_nonstop_20000">20 000 MB</string>
+    <string name="uz_month_nonstop_20000_price">65 000 so\'m</string>
+    <string name="uz_month_nonstop_30000">30 000 MB</string>
+    <string name="uz_month_nonstop_30000_price">75 000 so\'m</string>
+    <string name="uz_month_nonstop_50000">50 000 MB</string>
+    <string name="uz_month_nonstop_50000_price">85 000 so\'m</string>
+
+    <!--Internet 90_TASIX-->
+    <string name="uz_day_90_2">2 048 MB</string>
+    <string name="uz_day_90__2_price">15 000 so\'m</string>
+    <string name="uz_day_90_10">10 240 MB</string>
+    <string name="uz_day_90_10_price">40 000 so\'m</string>
+    <string name="uz_day_90_15">15 360 MB</string>
+    <string name="uz_day_90_15_price">50 000 so\'m</string>
+
+    <!-- Internet constructor-->
+    <string name="uz_constructor_100">100 MB</string>
+    <string name="uz_constructor_100_price">6 300 so\'m</string>
+    <string name="uz_constructor_500">500 MB</string>
+    <string name="uz_constructor_500_price">21 050 so\'m</string>
+    <string name="uz_constructor_1000">1000 MB</string>
+    <string name="uz_constructor_1000_price">27 360 so\'m</string>
+    <string name="uz_constructor_2000">2000 MB</string>
+    <string name="uz_constructor_2000_price">46 310 so\'m</string>
+    <string name="uz_constructor_4000">4000 MB</string>
+    <string name="uz_constructor_4000_price">71 570 so\'m</string>
+
+
+    <!--Internet CMDA-->
+    <string name="uz_cmda_150">150 MB</string>
+    <string name="uz_cmda_150_price">10 500 so\'m</string>
+    <string name="uz_cmda_350">350 MB</string>
+    <string name="uz_cmda_350_price">14 700 so\'m</string>
+    <string name="uz_cmda_700">700 MB</string>
+    <string name="uz_cmda_700_price">23 000 so\'m</string>
+    <string name="uz_cmda_1400">1 400 MB</string>
+    <string name="uz_cmda_1400_price">31 500 so\'m</string>
+    <string name="uz_cmda_2600">2 600 MB</string>
+    <string name="uz_cmda_2600_price">39 900 so\'m</string>
+    <string name="uz_cmda_3800">3 800 MB</string>
+    <string name="uz_cmda_3800_price">61 000 so\'m</string>
+    <string name="uz_cmda_5000">5 000 MB</string>
+    <string name="uz_cmda_5000_price">73 500 so\'m</string>
+    <string name="uz_cmda_6500">6 500 MB</string>
+    <string name="uz_cmda_6500_price">84 000 so\'m</string>
+    <string name="uz_cmda_13000">13 000 MB</string>
+    <string name="uz_cmda_13000_price">168 000 so\'m</string>
+
+
+    <!--Tarif Uzmobile-->
+
+    <!--Mobiuz Pro-->
+
+    <string name="mo_RemainTrafBtn">Trafik qoldig\'i</string>
+    <string name="mo_CheckAct">Faol xizmatlarni tekshirish</string>
+    <string name="mo_number">Mening raqamim</string>
+
+    <!--Useful-->
+
+    <!--Internet packet-->
+    <string name="mo_day_internet">Kunlik</string>
+    <string name="mo_week_internet">Haftalik</string>
+    <string name="mo_month_internet">Oylik</string>
+    <string name="mo_onnet_internet">OnNet</string>
+    <string name="mo_night_vip_internet">Tungi VIP</string>
+    <string name="mo_night_month_internet">Tungi oylik</string>
+
+    <!--Internet day-->
+    <string name="mo_day_50">50 MB</string>
+    <string name="mo_day_50_price">2 500 so\'m</string>
+    <string name="mo_day_100">100 MB</string>
+    <string name="mo_day_100_price">4 000 so\'m</string>
+    <string name="mo_day_200">200 MB</string>
+    <string name="mo_day_200_price">6 000 so\'m</string>
+    <string name="mo_day_300">300 MB</string>
+    <string name="mo_day_300_price">7 000 so\'m</string>
+    <string name="mo_day_500">500 MB</string>
+    <string name="mo_day_500_price">7 500 so\'m</string>
+    <string name="mo_day_1000">1 000 MB</string>
+    <string name="mo_day_1000_price">10 000 so\'m</string>
+    <string name="mo_day_2000">2 000 MB</string>
+    <string name="mo_day_2000_price">14 000 so\'m</string>
+    <string name="mo_day_3000">3 000 MB</string>
+    <string name="mo_day_3000_price">19 000 so\'m</string>
+    <string name="mo_day_5000">5 000 MB</string>
+    <string name="mo_day_5000_price">24 000 so\'m</string>
+    <string name="mo_day_10000">10 000 MB</string>
+    <string name="mo_day_10000_price">35 000 so\'m</string>
+
+    <!--Internet week-->
+    <string name="mo_week_100">100 MB</string>
+    <string name="mo_week_100_price">8 000 so\'m</string>
+    <string name="mo_week_200">200 MB</string>
+    <string name="mo_week_200_price">12 000 so\'m</string>
+    <string name="mo_week_300">300 MB</string>
+    <string name="mo_week_300_price">16 000 so\'m</string>
+
+    <!--Internet month-->
+    <string name="mo_month_300">300 MB</string>
+    <string name="mo_month_300_price">8 000 so\'m</string>
+    <string name="mo_month_500">500 MB</string>
+    <string name="mo_month_500_price">9 000 so\'m</string>
+    <string name="mo_month_1000">1000 MB</string>
+    <string name="mo_month_1000_price">11 000 so\'m</string>
+    <string name="mo_month_2000">2000 MB</string>
+    <string name="mo_month_2000_price">17 000 so\'m</string>
+    <string name="mo_month_3000">3000 MB</string>
+    <string name="mo_month_3000_price">25 000 so\'m</string>
+    <string name="mo_month_5000">5000 MB</string>
+    <string name="mo_month_5000_price">33 000 so\'m</string>
+    <string name="mo_month_10000">10000 MB</string>
+    <string name="mo_month_10000_price">50 000 so\'m</string>
+    <string name="mo_month_20000">20000 MB</string>
+    <string name="mo_month_20000_price">55 000 so\'m</string>
+    <string name="mo_month_30000">30000 MB</string>
+    <string name="mo_month_30000_price">65 000 so\'m</string>
+    <string name="mo_month_50000">50000 MB</string>
+    <string name="mo_month_50000_price">75 000 so\'m</string>
+
+    <!--Internet Oneet-->
+    <string name="mo_onnet_300">300 MB</string>
+    <string name="mo_onnet_300_price">8 000 so\'m</string>
+    <string name="mo_onnet_500">500 MB</string>
+    <string name="mo_onnet_500_price">9 000 so\'m</string>
+    <string name="mo_onnet_1000">1 000 MB</string>
+    <string name="mo_onnet_1000_price">11 000 so\'m</string>
+    <string name="mo_onnet_2000">2 000 MB</string>
+    <string name="mo_onnet_2000_price">17 000 so\'m</string>
+    <string name="mo_onnet_3000">3 000 MB</string>
+    <string name="mo_onnet_3000_price">25 000 so\'m</string>
+    <string name="mo_onnet_5000">5 000 MB</string>
+    <string name="mo_onnet_5000_price">33 000 so\'m</string>
+    <string name="mo_onnet_10000">10 000 MB</string>
+    <string name="mo_onnet_10000_price">50 000 so\'m</string>
+    <string name="mo_onnet_20000">20 000 MB</string>
+    <string name="mo_onnet_20000_price">55 000 so\'m</string>
+    <string name="mo_onnet_30000">30 000 MB</string>
+    <string name="mo_onnet_30000_price">65 000 so\'m</string>
+    <string name="mo_onnet_50000">50 000 MB</string>
+    <string name="mo_onnet_50000_price">75 000 so\'m</string>
+
+    <!--Internet night VIP-->
+    <string name="mo_night_1">Tun VIP</string>
+    <string name="mo_night__1_price">10 000 so\'m</string>
+    <string name="mo_night_7">7 tun VIP</string>
+    <string name="mo_night_7_price">45 000 so\'m</string>
+    <string name="mo_night_30">30 tun VIP</string>
+    <string name="mo_night_30_price">120 000 so\'m</string>
+
+    <!--Internet night month-->
+    <string name="mo_night_month_1000">1 000 MB</string>
+    <string name="mo_night_month_1000_price">5 000 so\'m</string>
+    <string name="mo_night_month_2000">2 000 MB</string>
+    <string name="mo_night_month_2000_price">9 500 so\'m</string>
+    <string name="mo_night_month_3000">3 000 MB</string>
+    <string name="mo_night_month_3000_price">12 500 so\'m</string>
+    <string name="mo_night_month_5000">5 000 MB</string>
+    <string name="mo_night_month_5000_price">17 000 so\'m</string>
+    <string name="mo_night_month_10000">10 000 MB</string>
+    <string name="mo_night_month_10000_price">22 000 so\'m</string>
+    <string name="mo_night_month_20000">20 000 MB</string>
+    <string name="mo_night_month_20000_price">33 000 so\'m</string>
+    <string name="mo_night_month_50000">50 000 MB</string>
+    <string name="mo_night_month_50000_price">44 000 so\'m</string>
+
+
+    <!--Minutes and SMS-->
+
+    <!--Minute-->
+
+    <!--SMS-->
+
+    <!--Tarif-->
+
+    <!--Yangiliklar MOBIUZ-->
+
+    <!--Yangiliklar UZMOBILE-->
+
+
+    <string name="package_day_1">24 soat</string>
+    <string name="package_day_7">7 kun</string>
+    <string name="package_day_30">30 kun</string>
+    <string name="package_day_90">90 kun</string>
+
+    <!--Internet day-->
+    <string name="day_100_price">3 000 so\'m</string>
+
+    <string name="price">Narxi:</string>
+    <string name="package_expiry">Amal qilish muddati:</string>
+    <string name="activate">Aktivlashtirish:</string>
+    <string name="som">so\'m</string>
+    <string name="note_minute">Eslatma!\nPaketlarning amal qilish muddati – faollashtirilgan vaqtdan boshlab 30 kun!</string>
+
+
+</resources>
