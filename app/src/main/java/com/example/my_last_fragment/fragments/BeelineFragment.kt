@@ -5,7 +5,14 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
+import com.example.my_last_fragment.Internet_activity
+import com.example.my_last_fragment.MainActivity
 import com.example.my_last_fragment.R
+import com.example.my_last_fragment.beelineFragment
+import kotlinx.android.synthetic.main.fragment_beeline_.*
+import android.content.Intent as Intent1
+import android.content.Intent as Intent2
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -17,7 +24,7 @@ private const val ARG_PARAM2 = "param2"
  * Use the [Beeline_Fragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class Beeline_Fragment : Fragment() {
+class Beeline_Fragment : Fragment(),View.OnClickListener {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -27,7 +34,11 @@ class Beeline_Fragment : Fragment() {
         arguments?.let {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
+
+
         }
+
+
     }
 
     override fun onCreateView(
@@ -36,6 +47,7 @@ class Beeline_Fragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_beeline_, container, false)
+
     }
 
     companion object {
@@ -57,4 +69,10 @@ class Beeline_Fragment : Fragment() {
                 }
             }
     }
+
+    override fun onClick(v: View?) {
+ internet_beeline.setOnClickListener {
+ }
+
+       }
 }

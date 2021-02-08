@@ -1,6 +1,7 @@
 package com.example.my_last_fragment
 
 import android.Manifest
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
@@ -14,6 +15,7 @@ import com.example.my_last_fragment.fragments.MobiFragment
 import com.example.my_last_fragment.fragments.UcellFragment
 import com.example.my_last_fragment.fragments.UzmobiFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import kotlinx.android.synthetic.main.fragment_beeline_.*
 
 lateinit var beelineFragment: Beeline_Fragment
 lateinit var ucellFragment: UcellFragment
@@ -25,6 +27,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
 
 
         val bottomNavigationView: BottomNavigationView = findViewById(R.id.botom_navigation)
